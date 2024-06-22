@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -12,61 +17,70 @@
     </header>
     <main>
         <h1>Hubungi saya</h1>
-        <form action="">
-            <input type="text" name="name" id="name" placeholder="Name">
-            <br>
-            <br>
-            <input type="text" name="email" id="email" placeholder="Email">
-            <br>
-            <br>
-            <input type="text" name="notelepon" id="notelepon" placeholder="No Telepon">
-            <br>
-            <br>
-            <textarea name="pesan" id="pesan" >Pesan</textarea>
-            <br>
-            <br>
-            <button>Kirim</button>
-        </form>
+        <div class="container">
+            <form action="">
+                <div class="form-contact">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                </div>
+                <div class="form-contact">
+                    <input type="text" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="form-contact">
+                    <input type="text" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="form-contact">
+                    <textarea name="pesan" id="pesan" placeholder="Pesan"></textarea>
+                </div>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
         <div class="feedback">
             <h1>feedback</h1>
-            <table>
-                <tr>
-                    <th>
-                        No
-                    </th>
-                    <th>Name</th>
-                    <th>
-                        Pesan
-                    </th>
-                    <th>Email</th>
-                    <th>No Telepon</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Putra</td>
-                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. !</td>
-                    <td>putra@gmail.com</td>
-                    <td>089712333241</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Andi</td>
-                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. !</td>
-                    <td>andi22@gmail.com</td>
-                    <td>085342333321</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>William</td>
-                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. !</td>
-                    <td>William11@gmail.com</td>
-                    <td>080822333241</td>
-                </tr>
+            <table class="style-table">
+                <thead>
+                    <tr>
+                        <th>
+                            No
+                        </th>
+                        <th>Name</th>
+                        <th>
+                            Pesan
+                        </th>
+                        <th>Email</th>
+                        <th>No Telepon</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Putra</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. !</td>
+                        <td>putra@gmail.com</td>
+                        <td>089712333241</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Andi</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. !</td>
+                        <td>andi22@gmail.com</td>
+                        <td>085342333321</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>William</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. !</td>
+                        <td>William11@gmail.com</td>
+                        <td>080822333241</td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </main>
     <footer>
-        
+        <a href="aboutme.html">Home</a>
+        <a href="#project">project</a>
+        <a href="contact.html">Contact</a>
+        <h2>&copy 2024 Oki septiardana</h2>
     </footer>
 </body>
 </html>
