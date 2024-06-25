@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins'); 
+
+*{
+    font-family:"poppins";
+}
+
+.container-fluid .col{
+    padding:50px;
+}
+ .nav-item a:hover{
+    color:black;
+}
+
+.container-fluid .col .myphotos{
+    border-radius:10px;
+    margin-left:150px;
+}
+
+#about .row .col .title-job{
+    color:white;
+}
+#about .row .col .text-description{
+    color:white;
+    padding:40px 0;
+}
+#about .row .col a:hover{
+    background-color:black;
+    color:white;
+}
+
+form .form-floating #pesan{
+    height:150px;
+}
+
+footer .container .row .col a{
+    color:white;
+    text-decoration:none;
+    margin-left:80px;
+    font-size:18px;
+}
+
+footer .container .row .col a:hover{
+    color:black;
+}
