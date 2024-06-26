@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins'); 
+
+*{
+    font-family:"poppins";
+    
+}
+
+header .navbar .container-fluid #clock{
+    font-size:24px;
+    color:white;
+    margin-right:300px;
+}
+.container-fluid .col{
+    padding:50px;
+}
+ .nav-item a:hover{
+    color:black;
+}
+
+.container-fluid .col .myphotos{
+    border-radius:10px;
+    margin-left:150px;
+}
+
+#formContact .input-group,.form-floating{
+    margin-bottom:37px;
+}
+
+#formContact .error-message{
+    color:red;
+    display:block;
+    position:absolute;
+    top:45px;
+}
+#about .row .col .title-job{
+    color:white;
+}
+#about .row .col .text-description{
+    color:white;
+    padding:40px 0;
+}
+#about .row .col a:hover{
+    background-color:black;
+    color:white;
+}
+
+form .form-floating #pesan{
+    height:150px;
+}
+
+.converter {
+    background-color: #fff;
+   margin:auto;
+   padding:30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-item:center;
+}
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+footer .container .row .col a{
+    color:white;
+    text-decoration:none;
+    margin-left:80px;
+    font-size:18px;
+}
+
+footer .container .row .col a:hover{
+    color:black;
+}
